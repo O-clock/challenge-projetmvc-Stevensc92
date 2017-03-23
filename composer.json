@@ -1,9 +1,11 @@
 {
     "name": "lucie/projetmvc",
     "authors": [{"name": "lucie"}],
-    "require": {},
+    "require": {
+        "altorouter/altorouter": "^1.2"
+    },
 	"autoload":
 		{
-			"ProjetMVC\\" : "src/"
+			"psr-4": { "ProjetMVC\\" : "src/" }
 		}
 }
