@@ -1,0 +1,9 @@
+{
+    "name": "lucie/projetmvc",
+    "authors": [{"name": "lucie"}],
+    "require": {},
+	"autoload":
+		{
+			"ProjetMVC\\" : "src/"
+		}
+}
